@@ -72,5 +72,20 @@
 	    </plugin>
 	  </plugins>
 	</build>
+	<distributionManagment>
+		<snapshotRepository>
+			<id>nexus</nexus>
+			<name>maven-web-application-snap</name>
+			<url>http://3.108.66.141:8081/repository/maven-web-application-snap/</url>
+			</snapshotRepository>
+			</distributionManagment>
 	
+			
+				
+
+			
+				
+			
+		
+		
 </project>
