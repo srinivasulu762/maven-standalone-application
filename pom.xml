@@ -35,6 +35,19 @@
 		</dependency>
 
 	</dependencies>
+ <distributionManagement>
+                <snapshotRepository>
+                        <id>nexus</id>
+                        <name>maven-web-application-snap</name>
+                        <url>http://3.108.66.141:8081/repository/maven-web-application-snap/</url>
+                </snapshotRepository>
+                <repository>
+                        <id>nexus</id>
+                        <name>maven-web-application-rel</name>
+                        <url>http://3.108.66.141:8081/repository/maven-web-application-rel/</url>
+                </repository>
+
+        </distributionManagement>
 
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
@@ -72,20 +85,4 @@
 	    </plugin>
 	  </plugins>
 	</build>
-	<distributionManagment>
-		<snapshotRepository>
-			<id>nexus</nexus>
-			<name>maven-web-application-snap</name>
-			<url>http://3.108.66.141:8081/repository/maven-web-application-snap/</url>
-			</snapshotRepository>
-			</distributionManagment>
-	
-			
-				
-
-			
-				
-			
-		
-		
-</project>
+	</project>
